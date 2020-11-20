@@ -1,0 +1,106 @@
+#eye {
+    left: 100px;
+    right: auto;
+}
+
+#eye-white {
+    background: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    left: 25px;
+    top: 5px;
+    transition: 3000ms;
+}
+
+#eye-black {
+    background: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    left: 50px;
+    top: 30px;
+}
+
+#eye-lid-bottom {
+    background: yellow;
+    width: 150px;
+    height: 40px;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+    z-index: -1;
+    top: 70px;
+}
+
+#eye-lid-top {
+    background: yellow;
+    width: 150px;
+    height: 70px;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+    z-index: -1;
+    top: 0px;
+}
+
+
+
+div {
+    position: absolute;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #999999;
+    overflow: hidden;
+}
+
+#box {
+    background-color: white;
+    mix-blend-mode: difference;
+    width: 500%;
+    height: 500%;
+    top: 0px;
+    left: 0px;;
+    transform-origin: 20px 0px;
+    transition: 1400ms;
+    rotate: 0deg;
+}
+
+#box2 {
+    background-color: white;
+    mix-blend-mode: difference;
+    width: 500%;
+    height: 400%;
+    top: 0px;
+    left: 0px;
+    transform-origin: 50px 0px;
+    transition: 400ms;
+    rotate:0deg;
+}
+
+#header {
+    top: 0%;
+    left: 0%;
+    max-height: 198px;
+    height: 40%;
+    width: 100%;
+    background: url("logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#main {
+    top: 40%;
+    height: 60%;
+    left: 2%;
+    width: 96%;
+    overflow-y: scroll;
+    background-color: yellow;
+}
+
+#footer {
+    top: 90%;
+    height: 10%;
+    
+    background-color: blue;
+}
