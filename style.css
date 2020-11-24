@@ -25,7 +25,7 @@ body {
     right: 10px;
     width: 160px;
     height: 98%;
-    overflow: clip;
+    overflow: hidden;
     background: transparent;
 }
 
