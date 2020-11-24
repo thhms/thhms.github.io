@@ -33,7 +33,7 @@ body {
     top: -100px;
     width: 200px;
     height: 200px;
-    rotate: 40deg;
+    transform: rotate(40deg);
     border-radius: 50px;
     /*background-color: #f7ed53;*/
     background-color: orangered;
