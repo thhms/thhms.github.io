@@ -95,6 +95,7 @@ span {
 .emoji {
     border: solid #222222 2px;
     background: transparent;
+    color: white;
     /*border-bottom-right-radius: 0px;
     border-top-left-radius: 0px;*/
 }
